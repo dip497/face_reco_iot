@@ -1,15 +1,15 @@
 
 # import the necessary packages
-from imutils.video import VideoStream
+from imutils.video import VideoStream	
 from imutils.video import FPS
-import face_recognition
-import imutils
-import pickle
+import face_recognition #version 1.3.0
+import imutils #version 0.5.4
+import pickle 
 import time
-import cv2
-import RPi.GPIO as GPIO
-import speech_recognition as sr
-import requests
+import cv2 #version 4.5.4.60 
+import RPi.GPIO as GPIO #version 0.7.0 
+import speech_recognition as sr #version 3.8.1
+import requests #version 2.26.0
 
 from gpiozero import AngularServo
 
