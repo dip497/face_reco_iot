@@ -8,7 +8,8 @@ import pickle
 import time
 import cv2
 import RPi.GPIO as GPIO
-import speech_recognition as sr 
+import speech_recognition as sr
+import requests
 
 from gpiozero import AngularServo
 
